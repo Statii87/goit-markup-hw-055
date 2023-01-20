@@ -12,6 +12,15 @@
     <title>Web Studio</title>
   </head>
   <body>
+    <div class="modal is-hidden" data-modal>
+      <div class="inner-modal">
+        <div class="close-bg-modal" data-modal-close>
+          <svg class="close-modal-icon">
+            <use href="images/close-modal.svg#icon-close-modal"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
     <header class="header-page">
       <section class="header-section">
         <a class="logo link" href="index.html">Web<span class="header-logo">Studio</span></a>
@@ -45,7 +54,7 @@
       <div class="hero-container">
         <section class="hero-section">
           <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR <br> YOU BUSINESS</h1>
-          <button class="hero-button" type="button">Request our service</button>
+          <button class="hero-button" type="button" data-modal-open>Request our service</button>
         </section>
       </div>
       <section class="description-icon">
@@ -369,5 +378,6 @@
         </div>
       </section>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
