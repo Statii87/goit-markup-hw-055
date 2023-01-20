@@ -539,8 +539,12 @@ display: block;
 .close-modal-icon{
 width: 11px;
 height: 11px;
-
+fill: currentColor;
 }
+.close-bg-modal:hover{
+  color: var(--highlight-color);
+}
+  
 .close-bg-modal{
   width: 30px;
   height: 30px;
