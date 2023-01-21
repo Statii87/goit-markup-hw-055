@@ -561,5 +561,5 @@ fill: currentColor;
   visibility:hidden;
   opacity:0;
   pointer-events:none;
-  transform: scale(0.1);
+  transform: scale(2);
 }
